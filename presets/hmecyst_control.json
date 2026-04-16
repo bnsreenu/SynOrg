@@ -1,0 +1,77 @@
+{
+  "_description": "HMECyst normal epithelial -- A01 control. ~250 cells. Solid spheroid. Nuclear density 94,869/mm3, r~13.6 um. Key biology: random spatial arrangement (Ripley ~1.7), fewer neighbours at 50 um radius (n~50), larger mean neighbour distance (35.8 um), larger crystal distance (22.7 um) vs cyst. Topology is the discriminator.",
+  "_calibration": {
+    "source": "Ong et al. 2025, Nature Methods, DOI: 10.1038/s41592-025-02685-4 \u2014 spatial topology dataset, sample A01 (control normal epithelial)",
+    "n_cells_measured": "~892 of 1784 total (8 samples split across A01/A07)",
+    "measured_nuclear_density_per_mm3": 94869,
+    "measured_cell_radius_um": 13.6,
+    "measured_mean_neighbour_dist_um": 35.8,
+    "measured_n_nuclei_neighbors_50um": 49.7,
+    "measured_crystal_distance_um": 22.7,
+    "measured_ripley_ratio": 1.685,
+    "spatial_character": "Random/disordered packing \u2014 solid spheroid, no hollow lumen",
+    "imaging_microscope": "Nikon Ti2-E AX confocal, 25x Plan Apo Lambda S Sil 1.05NA (same lab pipeline as osmotic stress dataset)",
+    "imaging_pixel_xy_nm": 345,
+    "imaging_z_step_um": 1.0,
+    "stain_ch0": "NucBlue (DAPI-like), 405 nm excitation",
+    "stain_ch1": "Alexa Fluor 647 Phalloidin (actin), 640 nm excitation",
+    "mounting": "Fluoromount G, not cleared"
+  },
+  "shape": {
+    "diameter_um": 195.0,
+    "diameter_std_um": 15.0,
+    "sphericity": 0.9
+  },
+  "cells": {
+    "cell_radius_core": 12.0,
+    "cell_radius_periph": 14.5,
+    "cell_radius_std": 0.8,
+    "nc_ratio_core": 0.65,
+    "nc_ratio_periph": 0.62,
+    "elongation_core": 0.82,
+    "elongation_periph": 0.76,
+    "core_fraction": 0.55,
+    "pressure_core": 0.12,
+    "pressure_periph": 0.05,
+    "radial_compression": 0.08,
+    "nucleus_ecc_core": 0.1,
+    "nucleus_ecc_periph": 0.38,
+    "nucleus_irregularity": 0.14,
+    "necrotic_core": false,
+    "necrotic_fraction": 0.0,
+    "necrotic_dapi_boost": 0.0,
+    "lumen_fraction": 0.0,
+    "apical_elongation": 0.0,
+    "surface_flattening": 0.0
+  },
+  "texture": {
+    "nucleus_texture_amplitude": 0.28,
+    "membrane_thickness_vox": 2.5,
+    "actin_cytoplasm_frac": 0.1,
+    "dapi_intensity_sigma": 0.16,
+    "actin_intensity_sigma": 0.22,
+    "membrane_bend_amplitude": 0.22,
+    "heterochromatin_fraction": 0.25
+  },
+  "optics": {
+    "psf_sigma_xy_um": 0.22,
+    "psf_sigma_z_um": 0.95,
+    "z_attenuation_coeff": 0.007,
+    "staining_depth_um": 40.0,
+    "scatter_increase_rate": 0.005,
+    "haze_amplitude": 0.1,
+    "shot_noise_scale": 0.045,
+    "read_noise_std": 0.01,
+    "background_level": 0.035,
+    "crosstalk_fraction": 0.04,
+    "cleared": false
+  },
+  "packing": {
+    "n_iterations": 140,
+    "repulsion_strength": 0.38,
+    "damping": 0.55,
+    "target_overlap": 0.02,
+    "boundary_strength": 1.1
+  },
+  "_ncells_target": "~260 per organoid (diameter 195 um, r_mean 13.25 um)"
+}

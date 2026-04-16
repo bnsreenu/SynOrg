@@ -1,0 +1,79 @@
+{
+  "_description": "Large primary PDAC organoid. ~1000 cells. Key biology: CONTINUOUS gradient from core to periphery -- no abrupt clusters, smooth morphological spectrum. Necrotic core (fraction=0.28). Prolate ratio median ~0.2 (mostly spherical). Target 1000 cells for practical segmentation time.",
+  "_calibration": {
+    "source": "Ong et al. 2025, Nature Methods, DOI: 10.1038/s41592-025-02685-4 \u2014 single large primary PDAC organoid, clustering analysis",
+    "n_cells_total": 3071,
+    "n_features_analysed": 29,
+    "n_clusters_kmeans": 3,
+    "cluster_labels": "core (dense/pyknotic), intermediate, peripheral (larger/elongated/active)",
+    "measured_prolate_ratio_median": 0.199,
+    "measured_prolate_ratio_mean": 0.254,
+    "measured_oblate_ratio_median": 0.093,
+    "measured_oblate_ratio_mean": 0.182,
+    "morphology_summary": "Mostly spherical nuclei; wide IQR reflects 3-cluster biology",
+    "architecture_note": "Complex organoid with external buds, internal invaginations, convolutions \u2014 not simple solid sphere",
+    "imaging_microscope": "Nikon Ti2-E AX confocal, 25x Plan Apo Lambda S Sil 1.05NA",
+    "imaging_pixel_xy_nm": 345,
+    "imaging_z_step_um": 1.0,
+    "stain_ch0": "NucBlue (DAPI-like), 405 nm excitation",
+    "stain_ch1": "Alexa Fluor 647 Phalloidin (actin), 640 nm excitation",
+    "mounting": "Fluoromount G, not cleared"
+  },
+  "shape": {
+    "diameter_um": 200.0,
+    "diameter_std_um": 20.0,
+    "sphericity": 0.84
+  },
+  "cells": {
+    "cell_radius_core": 7.5,
+    "cell_radius_periph": 9.5,
+    "cell_radius_std": 0.6,
+    "nc_ratio_core": 0.74,
+    "nc_ratio_periph": 0.7,
+    "elongation_core": 0.9,
+    "elongation_periph": 0.8,
+    "core_fraction": 0.5,
+    "pressure_core": 0.28,
+    "pressure_periph": 0.09,
+    "radial_compression": 0.16,
+    "nucleus_ecc_core": 0.12,
+    "nucleus_ecc_periph": 0.4,
+    "nucleus_irregularity": 0.32,
+    "necrotic_core": true,
+    "necrotic_fraction": 0.28,
+    "necrotic_dapi_boost": 1.8,
+    "lumen_fraction": 0.0,
+    "apical_elongation": 0.12,
+    "surface_flattening": 0.18
+  },
+  "texture": {
+    "nucleus_texture_amplitude": 0.38,
+    "membrane_thickness_vox": 2.0,
+    "actin_cytoplasm_frac": 0.08,
+    "dapi_intensity_sigma": 0.28,
+    "actin_intensity_sigma": 0.35,
+    "membrane_bend_amplitude": 0.22,
+    "heterochromatin_fraction": 0.3
+  },
+  "optics": {
+    "psf_sigma_xy_um": 0.22,
+    "psf_sigma_z_um": 0.95,
+    "z_attenuation_coeff": 0.009,
+    "staining_depth_um": 28.0,
+    "scatter_increase_rate": 0.007,
+    "haze_amplitude": 0.12,
+    "shot_noise_scale": 0.05,
+    "read_noise_std": 0.012,
+    "background_level": 0.045,
+    "crosstalk_fraction": 0.04,
+    "cleared": false
+  },
+  "packing": {
+    "n_iterations": 150,
+    "repulsion_strength": 0.46,
+    "damping": 0.54,
+    "target_overlap": 0.02,
+    "boundary_strength": 1.2
+  },
+  "_ncells_target": "~1000 per organoid (diameter 200 um, r_mean 8.5 um)"
+}

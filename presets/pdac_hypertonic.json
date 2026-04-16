@@ -1,0 +1,78 @@
+{
+  "_description": "PDAC cancer spheroid -- hypertonic (osmotic stress) condition. ~620 cells. Key biology vs isotonic: LOWER CV_chromatin (nucleus_texture_amplitude=0.18, compacted uniform chromatin, effect size ~0.7). Slight cell volume decrease (<5%%). Cell shape, elongation, roundedness NOT significantly different. Optics identical to isotonic so avg_intensity is comparable.",
+  "_calibration": {
+    "source": "Ong et al. 2025, Nature Methods, DOI: 10.1038/s41592-025-02685-4 \u2014 osmotic stress dataset, isotonic condition",
+    "n_cells_measured": 1300,
+    "n_fields": 6,
+    "measured_cell_volume_um3": 2300,
+    "measured_elongation_major_over_minor": 1.4,
+    "measured_elongation_our_scale": 0.714,
+    "measured_roundness": 0.63,
+    "measured_nuc_dist_border_ratio": 0.3,
+    "measured_cv_nuclear_position": 0.25,
+    "derived_cell_radius_um": 8.19,
+    "imaging_microscope": "Nikon Ti2-E AX confocal, 25x Plan Apo Lambda S Sil 1.05NA",
+    "imaging_pixel_xy_nm": 345,
+    "imaging_z_step_um": 1.0,
+    "stain_ch0": "NucBlue (DAPI-like), 405 nm excitation",
+    "stain_ch1": "Alexa Fluor 647 Phalloidin (actin), 640 nm excitation",
+    "mounting": "Fluoromount G, not cleared"
+  },
+  "shape": {
+    "diameter_um": 165.0,
+    "diameter_std_um": 10.0,
+    "sphericity": 0.91
+  },
+  "cells": {
+    "cell_radius_core": 6.7,
+    "cell_radius_periph": 7.7,
+    "cell_radius_std": 0.5,
+    "nc_ratio_core": 0.72,
+    "nc_ratio_periph": 0.68,
+    "elongation_core": 0.86,
+    "elongation_periph": 0.8,
+    "core_fraction": 0.5,
+    "pressure_core": 0.14,
+    "pressure_periph": 0.06,
+    "radial_compression": 0.1,
+    "nucleus_ecc_core": 0.22,
+    "nucleus_ecc_periph": 0.6,
+    "nucleus_irregularity": 0.24,
+    "necrotic_core": false,
+    "necrotic_fraction": 0.25,
+    "necrotic_dapi_boost": 1.6,
+    "lumen_fraction": 0.0,
+    "apical_elongation": 0.0,
+    "surface_flattening": 0.05
+  },
+  "texture": {
+    "nucleus_texture_amplitude": 0.38,
+    "membrane_thickness_vox": 2.0,
+    "actin_cytoplasm_frac": 0.08,
+    "dapi_intensity_sigma": 0.22,
+    "actin_intensity_sigma": 0.28,
+    "membrane_bend_amplitude": 0.2,
+    "heterochromatin_fraction": 0.05
+  },
+  "optics": {
+    "psf_sigma_xy_um": 0.22,
+    "psf_sigma_z_um": 0.95,
+    "z_attenuation_coeff": 0.005,
+    "staining_depth_um": 120.0,
+    "scatter_increase_rate": 0.004,
+    "haze_amplitude": 0.1,
+    "shot_noise_scale": 0.04,
+    "read_noise_std": 0.01,
+    "background_level": 0.03,
+    "crosstalk_fraction": 0.04,
+    "cleared": false
+  },
+  "packing": {
+    "n_iterations": 140,
+    "repulsion_strength": 0.44,
+    "damping": 0.55,
+    "target_overlap": 0.02,
+    "boundary_strength": 1.2
+  },
+  "_ncells_target": "~610 per organoid (diameter 165 um, r_core=6.7, r_periph=7.7)"
+}

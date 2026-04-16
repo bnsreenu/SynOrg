@@ -1,0 +1,28 @@
+# hmecyst_control — 5 organoids
+python generate_organoid.py --preset hmecyst_control --seed 42  --diameter 195 --output-dir output/images
+python generate_organoid.py --preset hmecyst_control --seed 7   --diameter 200 --output-dir output/images
+python generate_organoid.py --preset hmecyst_control --seed 13  --diameter 190 --output-dir output/images
+python generate_organoid.py --preset hmecyst_control --seed 21  --diameter 205 --output-dir output/images
+python generate_organoid.py --preset hmecyst_control --seed 55  --diameter 185 --output-dir output/images
+
+# hmecyst_cyst — 5 organoids
+python generate_organoid.py --preset hmecyst_cyst --seed 42 --diameter 190 --output-dir output/images
+python generate_organoid.py --preset hmecyst_cyst --seed 7  --diameter 195 --output-dir output/images
+python generate_organoid.py --preset hmecyst_cyst --seed 13 --diameter 185 --output-dir output/images
+python generate_organoid.py --preset hmecyst_cyst --seed 21 --diameter 200 --output-dir output/images
+python generate_organoid.py --preset hmecyst_cyst --seed 55 --diameter 188 --output-dir output/images
+
+
+# pdac_isotonic — 5 organoids
+python generate_organoid.py --preset pdac_isotonic --seed 42 --diameter 170 --output-dir output/images
+python generate_organoid.py --preset pdac_isotonic --seed 7  --diameter 175 --output-dir output/images
+python generate_organoid.py --preset pdac_isotonic --seed 13 --diameter 165 --output-dir output/images
+python generate_organoid.py --preset pdac_isotonic --seed 21 --diameter 172 --output-dir output/images
+python generate_organoid.py --preset pdac_isotonic --seed 55 --diameter 168 --output-dir output/images
+
+# pdac_hypertonic — 5 organoids
+python generate_organoid.py --preset pdac_hypertonic --seed 42 --diameter 165 --output-dir output/images
+python generate_organoid.py --preset pdac_hypertonic --seed 7  --diameter 168 --output-dir output/images
+python generate_organoid.py --preset pdac_hypertonic --seed 13 --diameter 160 --output-dir output/images
+python generate_organoid.py --preset pdac_hypertonic --seed 21 --diameter 166 --output-dir output/images
+python generate_organoid.py --preset pdac_hypertonic --seed 55 --diameter 162 --output-dir output/images
