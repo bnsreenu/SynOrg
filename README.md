@@ -185,6 +185,13 @@ Organoid Images with Exact Ground Truth for Deep Learning Pipeline Development.
 bioRxiv. DOI: [placeholder]
 ```
 
+And the software directly:
+
+```
+Bhattiprolu S. (2025). SynOrg: Synthetic Organoid Generator (v1.0.0).
+Zenodo. DOI: 10.5281/zenodo.19616101
+```
+
 ---
 
 ## Author
