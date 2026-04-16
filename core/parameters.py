@@ -124,6 +124,14 @@ class TextureParams:
     # Per-cell brightness variation
     dapi_intensity_sigma:    float = 0.18
     actin_intensity_sigma:   float = 0.28
+    
+    # Heterochromatin blob fraction (two-component chromatin texture model)
+    # 0.0 = pure smooth euchromatin background
+    # 0.25 = default mixed texture (realistic organoid)
+    # 1.0 = maximum heterochromatin blob density (highly granular)
+    # Used in signal_generator.py _nucleus_texture_field()
+    heterochromatin_fraction: float = 0.25   # range 0.0-1.0
+    
     dapi_brightness_core:    float = 0.70
     dapi_brightness_periph:  float = 1.00
     actin_brightness_core:   float = 0.55
