@@ -1,6 +1,8 @@
-# SynOrg — Synthetic Organoid Generator
+# SynOrg - Synthetic Organoid Generator
 
 Parametric physics-based generator of realistic 3D fluorescence organoid images with exact ground-truth label masks. Output is OME-TIFF compatible with arivis Pro, FIJI, napari, and any OME-aware viewer.
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19616101.svg)](https://doi.org/10.5281/zenodo.19616101)
 
 Companion to the manuscript:
 
@@ -181,6 +183,13 @@ If you use SynOrg in your research, please cite:
 Bhattiprolu S. (2025). Parametric Physics-Based Synthesis of 3D Fluorescence
 Organoid Images with Exact Ground Truth for Deep Learning Pipeline Development.
 bioRxiv. DOI: [placeholder]
+```
+
+And the software directly:
+
+```
+Bhattiprolu S. (2025). SynOrg: Synthetic Organoid Generator (v1.0.0).
+Zenodo. DOI: 10.5281/zenodo.19616101
 ```
 
 ---
