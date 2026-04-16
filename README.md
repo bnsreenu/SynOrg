@@ -1,4 +1,4 @@
-# SynOrg — Synthetic Organoid Generator
+# SynOrg - Synthetic Organoid Generator
 
 Parametric physics-based generator of realistic 3D fluorescence organoid images with exact ground-truth label masks. Output is OME-TIFF compatible with arivis Pro, FIJI, napari, and any OME-aware viewer.
 
