@@ -6,7 +6,7 @@ Parametric physics-based generator of realistic 3D fluorescence organoid images 
 
 Companion to the manuscript:
 
-> Bhattiprolu S. (2025). *Parametric Physics-Based Synthesis of 3D Fluorescence Organoid Images with Exact Ground Truth for Deep Learning Pipeline Development.* bioRxiv. [DOI placeholder]
+> Bhattiprolu S. (2025). *Parametric Physics-Based Synthesis of 3D Fluorescence Organoid Images with Exact Ground Truth for Deep Learning Pipeline Development.* bioRxiv. [doi: https://doi.org/10.64898/2026.04.16.719066]
 
 ---
 
