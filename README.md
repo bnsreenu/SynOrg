@@ -182,7 +182,7 @@ If you use SynOrg in your research, please cite:
 ```
 Bhattiprolu S. (2025). Parametric Physics-Based Synthesis of 3D Fluorescence
 Organoid Images with Exact Ground Truth for Deep Learning Pipeline Development.
-bioRxiv. DOI: [placeholder]
+bioRxiv. DOI: [10.64898/2026.04.16.719066]
 ```
 
 And the software directly:
